@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Animated</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b04ee4730a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+</head>
+<body>
+    <div id="main">
+      <!------------------ Page 1 ----------------------> 
+      <div id="page1"> 
+        <nav>
+            <div id="left-nav">
+                <div class="nav-menu">
+                    <div><a href="#about">About</a></div>
+                    <div><a href="#work">Work</a></div>
+                    <div><a href="#services">Services</a></div>
+                    <div><a href="#contact">Contact</a></div>
+                </div>
+            </div>
+            <div class="nav-icon" id="sliderButton">☰</div> <!-- Updated to add ID -->
+        </nav>
+    
+        <!-- Hidden slider panel --> 
+        <div id="sliderWindow"> 
+            <i class="fa-solid fa-times" id="closeSlider"></i> 
+            <div class="text-container">
+                <div class="text-container">
+                    <p class="hover-text">About</p>
+                    <p class="hover-text">Work</p>
+                    <p class="hover-text">Services</p>
+                    <p class="hover-text">Contact</p>
+                </div>
+                
+            </div>
+            <div class="info-container">
+                <div class="hover-text">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span onclick="window.location.href='mailto:info@example.com'">Email: info@example.com</span>
+                </div>
+                <div class="hover-text">
+                    <i class="fa-solid fa-map-marker-alt"></i>
+                    <span onclick="window.open('https://www.google.com/maps?q=City,+Country','_blank')">Location: City, Country</span>
+                </div>
+                <div class="hover-text">
+                    <i class="fa-solid fa-phone"></i>
+                    <span onclick="window.location.href='tel:(123) 456-7890'">Phone: (123) 456-7890</span>
+                </div>
+            </div>
+        </div>
+    
+        <div class="bottom-page1"> 
+            <h1>Experience Real <br>Estate Agility</h1> 
+        </div> 
+    </div>
+    
+    <script src="script.js"></script>
+    
+
+  <!------------------ Page 2 ----------------------> 
+  <div id="page2">
+    <h1 class="title">____ What We Do</h1>
+    <h1 class="subtitle">We enjoy creating delightful, 
+        <br>
+        human-centered IT experiences.</h1>
+    <h1 class="large-text">Think it. Solve it. Make it.</h1>
+    <br>
+    <button>Contact us <i class="fas fa-phone"></i></button>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</div>    
+
+
+
+    <!------------------page 3---------------------->
+    <div id="page3">
+            <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="image-container">
+                    <img src="path/to/your/image1.jpg" alt="Image 1">
+                </div>
+                <h2>Card Title 1</h2>
+                <p>Card description goes here.</p>
+                <button class="card-button">Learn More</button>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="image-container">
+                    <img src="path/to/your/image2.jpg" alt="Image 2">
+                </div>
+                <h2>Card Title 2</h2>
+                <p>Card description goes here.</p>
+                <button class="card-button">Learn More</button>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="image-container">
+                    <img src="path/to/your/image3.jpg" alt="Image 3">
+                </div>
+                <h2>Card Title 3</h2>
+                <p>Card description goes here.</p>
+                <button class="card-button">Learn More</button>
+            </div>
+        </div>
+    </div>
+
+        <canvas></canvas>
+    </div>
+
+    <!------------------page 4---------------------->
+    <div id="page4">
+        <h2>What People Say</h2>
+        <h1>Trusted by Clients.</h1>
+        <div class="slider">
+            <div class="slide">
+                <div class="card1">
+                    <div class="image-container">
+                        <img src="path/to/your/image1.jpg" alt="Image 1">
+                    </div>
+                    <h2>Card Title 1</h2>
+                    <p>Card description goes here.</p>
+                    <hr>
+                    <div class="message-icon">
+                        <i class="fas fa-comment"></i>
+                    </div>
+                    <p class="message-text">Your feedback is valuable to us.</p>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="card1">
+                    <div class="image-container">
+                        <img src="path/to/your/image2.jpg" alt="Image 2">
+                    </div>
+                    <h2>Card Title 2</h2>
+                    <p>Card description goes here.</p>
+                    <hr>
+                    <div class="message-icon">
+                        <i class="fas fa-comment"></i>
+                    </div>
+                    <p class="message-text">Your feedback is valuable to us.</p>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="card1">
+                    <div class="image-container">
+                        <img src="path/to/your/image3.jpg" alt="Image 3">
+                    </div>
+                    <h2>Card Title 3</h2>
+                    <p>Card description goes here.</p>
+                    <hr>
+                    <div class="message-icon">
+                        <i class="fas fa-comment"></i>
+                    </div>
+                    <p class="message-text">Your feedback is valuable to us.</p>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="card1">
+                    <div class="image-container">
+                        <img src="path/to/your/image4.jpg" alt="Image 4">
+                    </div>
+                    <h2>Card Title 4</h2>
+                    <p>Card description goes here.</p>
+                    <hr>
+                    <div class="message-icon">
+                        <i class="fas fa-comment"></i>
+                    </div>
+                    <p class="message-text">Your feedback is valuable to us.</p>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="card1">
+                    <div class="image-container">
+                        <img src="path/to/your/image5.jpg" alt="Image 5">
+                    </div>
+                    <h2>Card Title 5</h2>
+                    <p>Card description goes here.</p>
+                    <hr>
+                    <div class="message-icon">
+                        <i class="fas fa-comment"></i>
+                    </div>
+                    <p class="message-text">Your feedback is valuable to us.</p>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="card1">
+                    <div class="image-container">
+                        <img src="path/to/your/image6.jpg" alt="Image 6">
+                    </div>
+                    <h2>Card Title 6</h2>
+                    <p>Card description goes here.</p>
+                    <hr>
+                    <div class="message-icon">
+                        <i class="fas fa-comment"></i>
+                    </div>
+                    <p class="message-text">Your feedback is valuable to us.</p>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="card1">
+                    <div class="image-container">
+                        <img src="path/to/your/image7.jpg" alt="Image 7">
+                    </div>
+                    <h2>Card Title 7</h2>
+                    <p>Card description goes here.</p>
+                    <hr>
+                    <div class="message-icon">
+                        <i class="fas fa-comment"></i>
+                    </div>
+                    <p class="message-text">Your feedback is valuable to us.</p>
+                </div>
+            </div>
+        </div>
+    <script src="script.js"></script>
+    </div>
+
+    <!------------------page 5---------------------->
+    <div id="page5">
+        
+        <canvas></canvas>
+    </div>
+
+
+    <!------------------page 6---------------------->
+    <div id="page6">
+        <h1 >________ Say hello 👋 </h1>
+        <h2>Let’s Work Together..</h2>
+        
+                    <div class="info-container1">
+                        <div class="info-item1">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span onclick="window.location.href='mailto:info@example.com'">Email: info@example.com</span>
+                        </div>
+                        <div class="info-item1">
+                            <i class="fa-solid fa-map-marker-alt"></i>
+                            <span onclick="window.open('https://www.google.com/maps?q=City,+Country','_blank')">Location: City, Country</span>
+                        </div>
+                        <div class="info-item1">
+                            <i class="fa-solid fa-phone"></i>
+                            <span onclick="window.location.href='tel:(123) 456-7890'">Phone: (123) 456-7890</span>
+                        </div>
+                </div>
+
+                    <div class="contact-container">
+
+                        <div class="contact">
+                            <form>
+                                <div class="input-box">
+                                    <input type="text" placeholder="Full Name">
+                                    <input type="email" placeholder="Email Address">
+                                </div>
+                                <div class="input-box">
+                                    <input type="number" placeholder="Mobile Number">
+                                    <input type="text" placeholder="Email Subject">
+                                </div>
+                                <textarea cols="30" rows="10" placeholder="Your Message"></textarea>
+                                <input type="submit" value="Send Message" class="btn">
+                            </form>
+                        </div>
+                    </div>
+                    
+                    
+            
+            <script src="script.js"></script>
+            </div>
+
+
+    <!------------------page 7---------------------->
+    <div id="page7">
+        <div class="page7-cir">
+            <div class="page7-cir-inner"></div>
+        </div>
+        <canvas></canvas>
+    </div>
+
+    <!------------------page 8---------------------->
+    <div id="page8">
+        <div class="page8-bottom">
+            <h1>Magma DTT</h1>
+            <button>LEARN MORE</button>
+        </div>
+        <video src="https://thisismagma.com/wp-content/themes/magma/assets/home/glass/1.webm?2"autoplay loop muted></video>
+    </div>
+
+    <!------------------page 13---------------------->
+    <div id="page13">
+        <h1>Become an
+            <br>
+            early adopter</h1>
+            <button>BOOK A DEMO</button>
+    </div>
+
+
+    <!------------------page 14---------------------->
+    <div id="page14">
+        <div class="page14-inner">
+            <h1>Twitter</h1>
+            <i class="ri-arrow-right-up-line"></i>
+            <div class="center14"></div>
+        </div>
+        <div class="page14-inner">
+            <h1>LinkedIn</h1>
+            <i class="ri-arrow-right-up-line"></i>
+            <div class="center14"></div>
+
+        </div>
+        <div class="page14-inner">
+            <h1>Instagram</h1>
+            <i class="ri-arrow-right-up-line"></i>
+            <div class="center14"></div>
+
+        </div>
+    </div>
+    
+    
+    </div>
+
+    <!------------------script---------------------->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/gsap.min.js" integrity="sha512-qF6akR/fsZAB4Co1QDDnUXWnaQseLGXoniuSuSlPQK6+aWhlMZcHzkasCSlnWoe+TJuudlka1/IQ01Dnhgq95g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollTrigger.min.js" integrity="sha512-IHDCHrefnBT3vOCsvdkMvJF/MCPz/nBauQLzJkupa4Gn4tYg5a6VGyzIrjo6QAUy3We5HFOZUlkUpP0dkgE60A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>
